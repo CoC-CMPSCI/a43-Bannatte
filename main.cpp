@@ -13,7 +13,8 @@ int main()
         smallest = num2;
     if (num3 < smallest)
         smallest = num3;
-
+    
     cout << "The smallest number is  " << smallest << endl;
+
     return 0;
 }
