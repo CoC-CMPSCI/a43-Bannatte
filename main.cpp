@@ -4,16 +4,16 @@ using namespace std;
 int main()
 {
     int num1, num2, num3;
-    int min;
+    int smallest;
 
     cin >> num1 >> num2 >> num3;
 
-    min = num1;
-    if (num2 < min)
-        min = num2;
-    if (num3 < min)
-        min = num3;
+    smallest = num1;
+    if (num2 < smallest)
+        smallest = num2;
+    if (num3 < smallest)
+        smallest = num3;
 
-    cout << "The smallest number is  " << min << endl;
+    cout << "The smallest number is  " << smallest << endl;
     return 0;
 }
